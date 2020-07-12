@@ -1,12 +1,3 @@
----
-title: "Assignment Getting and Cleaning Data Course"
-author: Barbara Verhaar
-date: July 12, 2020
-output:
-  md_document:
-    variant: markdown_github
----
-
 #Tidying Data Set 'Human Activity Recognition Using Smartphones'
 
 ##Files in this repo
