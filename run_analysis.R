@@ -19,7 +19,7 @@ features <- read.table(str_c(dir, 'features.txt'), header = FALSE)
 
 ## Preprocessing of data files (binding subject ids and labels); labeling data sets with var names from features file.
 rewrite_labels <- function(x){a <- str_remove(x, pattern="[0-9]+[ ]+")
-                              b <- str_replace(a, '-', '_')
+                              b <- str_replace_all(a, '-', '_')
                               return(b)} # Function to remove numbers and spaces and replace dashes by underscores
 labs <- sapply(features[2], rewrite_labels) # Rename variable names from features file
 
@@ -61,3 +61,4 @@ averages <- dataSet %>%
   select(contains('mean') | contains('std')) %>% 
   summarise_all(.funs = c(mean='mean'))
 
+write.table(averages, file = 'averages.txt', row.names = FALSE) # write txt file to submit assignment
