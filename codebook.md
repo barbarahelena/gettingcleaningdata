@@ -1,9 +1,4 @@
----
-title: "Codebook"
-author: "Barbara Verhaar"
-date: "7/12/2020"
-output: html_document
----
+# Codebook
 
 ## Description of variables - dataSet
 This dataset has the following variables:
