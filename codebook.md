@@ -20,7 +20,7 @@ This dataset has the following variables:
     - Jerk = sudden movement acceleration 
     - Mag = magnitude of movement 
     - mean and SD are calculated for each subject for each activity for each mean and SD measurements
-    - XYZ: used to denote 3-axial signals in the X, Y and Z directions. They total 33 measurements including the 3 dimensions - the X,Y, and Z axes.
+    - X/Y/Z refer to three-axial signals in the X, Y and Z directions. In total, there are 33 measurements including these three dimensions.
 In the original data set, there were 561 feature variables. This data set has 66 feature variables: 33 variables with a mean and SD each (33*2). The variables are presented in the following units: g’s for the accelerometer and rad/sec for the gyro; g/sec and rad/sec/sec for the corresponding jerks.
 
 ## Averages
