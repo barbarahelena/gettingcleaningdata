@@ -44,7 +44,7 @@ The activity labels are still numbers in this dataset and are being replaced by 
 In this step, from testtrain only the vars are selected that contain mean() or std(), in addition to the subject IDs (id) and activity labels (activity). The resulting dataframe is named 'dataSet'. After this step, the parentheses are removed from the variable names.
 
 ## Creating second dataset with averages
-A second dataset is created with the averages of the dataSet variables per subject ID and per activity. Group_by and summarise are used to make this dataset, which is named 'averages'.
+A second dataset is created with the averages of the dataSet variables per subject ID and per activity. Group_by and summarise are used to make this dataset, which is named 'averages'. This data set is written to a txt file.
 
 ## Libraries used
 - library(dplyr)
