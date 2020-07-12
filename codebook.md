@@ -10,7 +10,7 @@ This dataset has the following variables:
     - sitting (4)
     - standing (5)
     - laying (6)
-- description of abbreviated features (in total 561 for the complete dataSet, 66 for this dataSet): 
+- feature variables: these features are abbreviated in the variable names. These can be explained as follows: 
     - leading t = time measurement
     - leading f = frequency measurements 
     - Body = related to body movement. 
@@ -21,7 +21,7 @@ This dataset has the following variables:
     - Mag = magnitude of movement 
     - mean and SD are calculated for each subject for each activity for each mean and SD measurements
     - XYZ: used to denote 3-axial signals in the X, Y and Z directions. They total 33 measurements including the 3 dimensions - the X,Y, and Z axes.
-  This results in 66 variables: 33 variables with a mean and SD each. The variables are presented in the following units: g’s for the accelerometer and rad/sec for the gyro; g/sec and rad/sec/sec for the corresponding jerks.
+In the original data set, there were 561 feature variables. This data set has 66 feature variables: 33 variables with a mean and SD each (33*2). The variables are presented in the following units: g’s for the accelerometer and rad/sec for the gyro; g/sec and rad/sec/sec for the corresponding jerks.
 
 ## Description of data - averages set
 The ids and activities in this dataset are the same as in the dataset above, but the features are averaged for each id and activity. Therefore, each feature as described above has a '_mean' added to the variable name. There are 180 different combinations of subjects and activities (30*6), therefore this dataset has 180 records with again 66 feature variables in addition to the subject ids and activity labels.
