@@ -57,7 +57,7 @@ colnames(dataSet) <- str_remove_all(colnames(dataSet), '\\(\\)') # Remove all pa
 
 ## Data set with the average of each variable for each activity and each subject.
 averages <- dataSet %>%
-  group_by(id, act) %>% 
+  group_by(id, activity) %>% 
   select(contains('mean') | contains('std')) %>% 
   summarise_all(.funs = c(mean='mean'))
 
