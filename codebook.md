@@ -1,6 +1,6 @@
 # Codebook
 
-## Description of variables - dataSet
+## DataSet
 This dataset has the following variables:
 - id: these are the subject ids, in total 30 (1-30), of which 70% was allocated to the train set and 30% to the test set
 - activity: these are the activity labels, in total six:
@@ -23,5 +23,5 @@ This dataset has the following variables:
     - XYZ: used to denote 3-axial signals in the X, Y and Z directions. They total 33 measurements including the 3 dimensions - the X,Y, and Z axes.
 In the original data set, there were 561 feature variables. This data set has 66 feature variables: 33 variables with a mean and SD each (33*2). The variables are presented in the following units: g’s for the accelerometer and rad/sec for the gyro; g/sec and rad/sec/sec for the corresponding jerks.
 
-## Description of data - averages set
+## Averages
 The ids and activities in this dataset are the same as in the dataset above, but the features are averaged for each id and activity. Therefore, each feature as described above has a '_mean' added to the variable name. There are 180 different combinations of subjects and activities (30*6), therefore this dataset has 180 records with again 66 feature variables in addition to the subject ids and activity labels.
